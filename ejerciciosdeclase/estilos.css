@@ -1,102 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Sixtyfour&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Workbench&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Lilita+One&family=Workbench&display=swap');
+
 /* mato margenes que da el navegador por default */
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Lilita One', sans-serif;
 }
 
 header{
     width: 100%;
     height: 70vh;
-    
+    background-color: darkolivegreen;
 }
+
 .menu{
-    width:100%;
+    width: 100%;
     height: 10vh;
+    /* background-color: bisque; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 ul{
     display: flex;
 }
+
 li{
     list-style-type: none;
     margin-right: 20px;
 }
+
 .li{
     color: blue;
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 15px;
 }
+
+/* hover es una seudoclase para ca,mbiar la apreincia de algun elemento colocando el cursos sobre este */
 .li:hover{
-    color: #fff;
+    color: white;
     border: solid 1px blue;
     background-color: blue;
-
+    padding: 5px 10px;
+    border-radius: 15px;
 }
-
 
 .menu p{
     color: blue;
-    font-size: 2em;
-    font-family: 'Sixtyfour', sans-serif;
+    font-size: 3em;
+    font-family: 'Honk', system-ui;
 }
-.fondo{
-    width: 100%;
-    height: 60vh;
-    background: url("../img/SUNSET.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: #ecbebe;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.texto{
-    font-size: 2em;
-    text-shadow: 0px 0px 20px yellow;
-    text-align: center;
-
-}
-.texto h1{
-    letter-spacing: .2em;
-    */diseño del boton */
-}
-.boton{
-    color: #fff;
-    text-decoration: none;
-    background-color:navy;
-    padding: 0 10px;
-    border-radius: 20px;
-}
-.boton:hover{
-    background-color: rgba(0, 0, 139, 0.385);
-}
-
-/* termina header y comienza main  */
-
-#acerca{
-    width: 100%;
-    height: 50vh;
-    background-color: rgb(255, 0, 149);
-    
-}
-#conocimientos{
-    width: 100%;
-    height: 70vh;
-    background-color: bisque;
-
-}
-
-#contacto{
-    width: 100%;
-    height: 50vh;
-    background-color: rgb(246, 255, 0);
-}
-
